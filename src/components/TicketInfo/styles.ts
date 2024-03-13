@@ -11,6 +11,10 @@ const Section = styled.section`
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+
+    @media (max-width: 821px) {
+      display: none;
+    }
   }
 
   h2.header {

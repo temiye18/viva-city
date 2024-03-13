@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GlobalStyles } from "./base";
 import {
+  Header,
   Hero,
   Portfolio,
   Sidebar,
@@ -35,7 +36,8 @@ function App() {
     <>
       <GlobalStyles />
       <Sidebar onCloseSidebar={closeSidebarDelay} isOpen={isOpen} />
-      <Hero onOpenSidebar={handleOpenSidebar} />
+      <Header onOpenSidebar={handleOpenSidebar} />
+      <Hero />
       <Portfolio />
       <TicketInfo />
       <WhatMore />

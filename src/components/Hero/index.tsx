@@ -1,17 +1,10 @@
-import { type FC } from "react";
-import Header from "../Header";
 import { RightContent } from "../../assets/svgs";
 import Section from "./styles";
 import { Container } from "../../ui";
 
-type Props = {
-  onOpenSidebar: () => void;
-};
-
-const Hero: FC<Props> = ({ onOpenSidebar }) => {
+const Hero = () => {
   return (
     <Section>
-      <Header onOpenSidebar={onOpenSidebar} />
       <Container>
         <div className="hero-container">
           <div>

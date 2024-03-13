@@ -1,6 +1,15 @@
 import { useState } from "react";
 import { GlobalStyles } from "./base";
-import { Hero, Portfolio, Sidebar, TicketInfo, WhatMore } from "./components";
+import {
+  Hero,
+  Portfolio,
+  Sidebar,
+  TicketInfo,
+  WhatMore,
+  GetStarted,
+  Contact,
+  Footer,
+} from "./components";
 
 function App() {
   const [isOpen, setIsOpen] = useState<boolean>(false);

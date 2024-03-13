@@ -1,13 +1,6 @@
 import { useState } from "react";
 import { GlobalStyles } from "./base";
-import {
-  GetStarted,
-  Hero,
-  Portfolio,
-  Sidebar,
-  TicketInfo,
-  WhatMore,
-} from "./components";
+import { Hero, Portfolio, Sidebar, TicketInfo, WhatMore } from "./components";
 
 function App() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -37,6 +30,8 @@ function App() {
       <TicketInfo />
       <WhatMore />
       <GetStarted />
+      <Contact />
+      <Footer />
     </>
   );
 }

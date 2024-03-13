@@ -4,7 +4,7 @@ const Aside = styled.aside`
   position: fixed;
   height: 100vh;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
   top: 0;
   right: 0;
   background-color: var(--white);

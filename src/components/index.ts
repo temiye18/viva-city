@@ -6,3 +6,4 @@ export { default as WhatMore } from "./WhatMore";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
 export { default as GetStarted } from "./GetStarted";
+export { default as Faq } from "./Faq";

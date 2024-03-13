@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const Section = styled.section`
-  /* padding-top: clamp(5.25rem, 1.1875rem + 13vw, 6rem); */
   padding-top: clamp(5.25rem, 4.8333rem + 1.3333vw, 6rem);
 
   .get-started {

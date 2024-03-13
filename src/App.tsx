@@ -9,6 +9,7 @@ import {
   GetStarted,
   Contact,
   Footer,
+  Faq,
 } from "./components";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <TicketInfo />
       <WhatMore />
       <GetStarted />
+      <Faq />
       <Contact />
       <Footer />
     </>

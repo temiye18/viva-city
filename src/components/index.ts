@@ -4,3 +4,4 @@ export { default as Portfolio } from "./Portfolio";
 export { default as TicketInfo } from "./TicketInfo";
 export { default as WhatMore } from "./WhatMore";
 export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";

@@ -1,6 +1,14 @@
 import { useState } from "react";
 import { GlobalStyles } from "./base";
-import { Contact, Hero, Portfolio, Sidebar, TicketInfo, WhatMore } from "./components";
+import {
+  Contact,
+  Footer,
+  Hero,
+  Portfolio,
+  Sidebar,
+  TicketInfo,
+  WhatMore,
+} from "./components";
 
 function App() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -30,6 +38,7 @@ function App() {
       <TicketInfo />
       <WhatMore />
       <Contact />
+      <Footer />
     </>
   );
 }

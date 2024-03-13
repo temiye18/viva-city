@@ -28,6 +28,7 @@ const GlobalStyles = createGlobalStyle`
    font-family: "Inter", sans-serif;
     font-weight: 400;
     color: var(--black-one);
+    overflow-x: hidden;
     
    }
 

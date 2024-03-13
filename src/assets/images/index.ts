@@ -1,0 +1,10 @@
+export { default as HeroBg } from "./HeroBg.png";
+export { default as Bbc } from "./Bbc.png";
+export { default as Rakuten } from "./Rakuten.png";
+export { default as Spotify } from "./Spotify.png";
+export { default as Tiktok } from "./Tiktok.png";
+export { default as Trivago } from "./Trivago.png";
+export { default as OfferImageOne } from "./OfferImageOne.png";
+export { default as OfferImageTwo } from "./OfferImageTwo.png";
+export { default as OfferImageThree } from "./OfferImageThree.png";
+export { default as OfferBg } from "./OfferBg.png";

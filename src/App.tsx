@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { GlobalStyles } from "./base";
+import { Hero, Portfolio, Sidebar, TicketInfo, WhatMore } from "./components";
 
 function App() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const handleOpenSidebar = () => {
+    setIsOpen(true);
+  };
+
+  const handleCloseSidebar = () => {
+    setIsOpen(false);
+  };
+
+  const closeSidebarDelay = () => {
+    const time = setTimeout(() => {
+      handleCloseSidebar();
+    }, 400);
+
+    return () => clearTimeout(time);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <Sidebar onCloseSidebar={closeSidebarDelay} isOpen={isOpen} />
+      <Hero onOpenSidebar={handleOpenSidebar} />
+      <Portfolio />
+      <TicketInfo />
+      <WhatMore />
+    </>
   );
 }
 

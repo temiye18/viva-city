@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --primary-color:  #f4d5d5;
     --primary-light: #F6C1C1;
     --secondary-color: #E44444;
+    --tertiary-color: #4C1717;
 }
 
    html,

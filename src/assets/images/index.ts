@@ -8,3 +8,4 @@ export { default as OfferImageOne } from "./OfferImageOne.png";
 export { default as OfferImageTwo } from "./OfferImageTwo.png";
 export { default as OfferImageThree } from "./OfferImageThree.png";
 export { default as OfferBg } from "./OfferBg.png";
+export { default as FooterIBg } from "./FooterIBg.png";

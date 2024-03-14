@@ -1,8 +1,18 @@
 import styled from "styled-components";
+import { HeroBg } from "../../assets/images";
 
-const StyledHeader = styled.div`
-  background-color: transparent;
+const StyledHeader = styled.header`
+  background-color: var(--secondary-color);
+  background-image: url(${HeroBg});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   padding: 1.75rem 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
 
   .header-content {
     display: flex;

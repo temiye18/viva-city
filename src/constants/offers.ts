@@ -85,3 +85,54 @@ export const more: More[] = [
     icon: Help,
   },
 ];
+
+type Faq = {
+  id: string;
+  question: string;
+  answer: string;
+};
+
+export const faqs: Faq[] = [
+  {
+    id: "f1",
+    question: "What is escrow system ?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f2",
+    question: "What documents do I need to open a  business organizer account?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f3",
+    question: "Is there a fee for opening an account?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f4",
+    question: "Is vivacity safe?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f5",
+    question: "Can a personal bank account be used for business?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f6",
+    question: "How do i promote my event ?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+  {
+    id: "f7",
+    question: "How do I access my fund after sales ?",
+    answer:
+      "An escrow system is a financial arrangement where a third party holds and regulates payment of the funds required for two parties involved in a transaction. It helps to ensure the security and transparency of transactions, particularly in scenarios where there is a lack of trust between the buyer and the seller.",
+  },
+];

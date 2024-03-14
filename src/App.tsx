@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GlobalStyles } from "./base";
 import {
+  Header,
   Hero,
   Portfolio,
   Sidebar,
@@ -9,6 +10,7 @@ import {
   GetStarted,
   Contact,
   Footer,
+  Faq,
 } from "./components";
 
 function App() {
@@ -34,11 +36,13 @@ function App() {
     <>
       <GlobalStyles />
       <Sidebar onCloseSidebar={closeSidebarDelay} isOpen={isOpen} />
-      <Hero onOpenSidebar={handleOpenSidebar} />
+      <Header onOpenSidebar={handleOpenSidebar} />
+      <Hero />
       <Portfolio />
       <TicketInfo />
       <WhatMore />
       <GetStarted />
+      <Faq />
       <Contact />
       <Footer />
     </>

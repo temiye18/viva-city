@@ -91,8 +91,8 @@ const Footer = () => {
         <div className="foot-note">
           <p>Copyright © 2024, Vivacity Technology Limited</p>
           <p className="policy">
-            <a href="#privacy policy">privacy policy</a>
-            <a href="#cookiepolicy">cookie policy</a>
+            <a href="#privacypolicy">privacy policy</a>
+            <a href="#cookiepolicy">Cookie policy</a>
           </p>
         </div>
       </Container>

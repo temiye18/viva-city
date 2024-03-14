@@ -13,6 +13,12 @@ const Section = styled.section`
     justify-content: space-around;
     margin-bottom: 20px;
 
+    @media (max-width: 568px) {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 20px;
+    }
+
     .download-section {
       .download-store {
         margin-bottom: 40px;
@@ -55,12 +61,13 @@ const Section = styled.section`
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    text-transform: capitalize;
 
-    p {
+    p.policy {
+
       a {
         color: #FFFFFF;
         margin-right: 10px;
-        text-transform: capitalize;
       }
     }
   }
